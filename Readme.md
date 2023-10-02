@@ -1,11 +1,11 @@
 ## Uniswap V3 Staker Subgraph
 
-Subgraph to be used by the [UNI V3 Staker Frontend](https://github.com/vbstreetz/uniswap-v3-staker-frontend).
+Subgraph to be used by the [UNI V3 Staker Frontend](https://github.com/MchainNetwork/uniswap-v3-staker-frontend).
 
 ### Examples
 
-- https://thegraph.com/legacy-explorer/subgraph/vbstreetz/witswap-staking (mainnet)
-- https://thegraph.com/legacy-explorer/subgraph/vbstreetz/witswap-staking-rinkeby (rinkeby)
+- https://thegraph.com/hosted-service/subgraph/mchainnetwork/mar-staking-mainnet (mainnet)
+- https://thegraph.com/hosted-service/subgraph/mchainnetwork/mar-staking-goerli (goerli)
 
 ### Deployment
 

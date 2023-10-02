@@ -2,15 +2,15 @@
   "name": "uniswap-v3-staker-subgraph",
   "license": "MIT",
   "scripts": {
-    "codegen:rinkeby": "graph codegen -- subgraph-rinkeby.yaml",
-    "build:rinkeby": "graph build -- subgraph-rinkeby.yaml",
-    "deploy:rinkeby": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ -- vbstreetz/witswap-staking-rinkeby subgraph-rinkeby.yaml",
+    "codegen:goerli": "graph codegen -- subgraph-goerli.yaml",
+    "build:goerli": "graph build -- subgraph-goerli.yaml",
+    "deploy:goerli": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ -- mchainnetwork/mar-staking-goerli subgraph-goerli.yaml",
     "codegen:mainnet": "graph codegen -- subgraph-mainnet.yaml",
     "build:mainnet": "graph build -- subgraph-mainnet.yaml",
-    "deploy:mainnet": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ -- vbstreetz/witswap-staking subgraph-mainnet.yaml"
+    "deploy:mainnet": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ -- mchainnetwork/mar-staking-mainnet subgraph-mainnet.yaml"
   },
   "dependencies": {
-    "@graphprotocol/graph-cli": "0.20.1",
-    "@graphprotocol/graph-ts": "0.20.1"
+    "@graphprotocol/graph-cli": "0.57.0",
+    "@graphprotocol/graph-ts": "0.31.0"
   }
 }
